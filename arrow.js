@@ -11,7 +11,7 @@ const exclaim = function(str) {
 
 // arrow
 // declaration
-// expression*
+expression
 
 
 
@@ -22,11 +22,11 @@ const exclaim = function(str) {
   Uncomment the answer underneath.
 */
 
-// const exclaimTwo = str => {
-//   return str.toUpperCase() + '!!!'
-// }
+const exclaimTwo = str => {
+  return str.toUpperCase() + '!!!'
+}
 
-// arrow*
+arrow
 // declaration
 // expression
 
@@ -52,7 +52,7 @@ function exclaimFour(str) {
 }
 
 // arrow
-// declaration*
+declaration
 // expression
 
 
@@ -106,4 +106,4 @@ const compareNums = (num1,num2) => {
 
 const bestMovie = movieTitle => `${movieTitle} is the best movie ever!`
 
-console.log(bestMovie('The Lion King'))
+//console.log(bestMovie('The Lion King'))
